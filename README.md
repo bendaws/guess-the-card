@@ -1,5 +1,20 @@
--- made by @btd2010
+# The Computer will Guess Your Card
+This Lua code will guess your card. Only 1% can beat! Impossible to figure out.
+> this is a joke
 
+## Usage
+```
+lua guess-the-card.lua
+```
+
+Also compatable with LuaJIT
+```
+luajit guess-the-card.lua
+```
+
+## Code
+```lua
+-- made by @btd2010
 function read()
   return io.read()
 end
@@ -79,3 +94,4 @@ print("Is your card...")
 print("a " .. faceValue .. " of " .. suitValue .. "?")
 
 os.exit(0)
+```
